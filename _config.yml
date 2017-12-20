@@ -73,7 +73,6 @@ author:
   steam: yourname     # eg. daattali
   twitch: none    # eg. daattali
   yelp: none      # eg. daattali
-  weixin: yourname
   weibo: 6115410479 # eg. 6115410479
 
 # Select which links to show in the footer
@@ -96,7 +95,6 @@ footer-links-active:
   steam: false
   twitch: false
   yelp: false
-  weixin: true
   weibo: true
 
 # Select which share links to show in posts

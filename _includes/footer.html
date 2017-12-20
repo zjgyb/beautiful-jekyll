@@ -35,22 +35,11 @@
               <span class="sr-only">Twitter</span>
             </a>
           </li>
-          {% endif %}
-      {% if site.author.weixin and site.footer-links-active.weixin %}
-          <li>
-            <a href="https://wx.qq.com/{{ site.author.weixin }}" title="Weixin">
-              <span class="fa-weixin fa-lg" aria-hidden="true">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
-              </span>
-              <span class="sr-only">Weixin</span>
-            </a>
-          </li>
-          {% endif %}    
+          {% endif %}  
       {% if site.author.weibo and site.footer-links-active.weibo %}
           <li>
             <a href="https://weibo.com/u/{{ site.author.weibo }}" title="Weibo">
-              <span class="fa-weibo fa-lg" aria-hidden="true">
+              <span class="fa-stack fa-lg" aria-hidden="true">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
               </span>
