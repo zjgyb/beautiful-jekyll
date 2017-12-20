@@ -47,6 +47,17 @@
             </a>
           </li>
           {% endif %}    
+      {% if site.author.weibo and site.footer-links-active.weibo %}
+          <li>
+            <a href="https://weibo.com/u/{{ site.author.weibo }}" title="Weibo">
+              <span class="fa-weibo fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">Weibo</span>
+            </a>
+          </li>
+          {% endif %} 
 	  {% if site.author.reddit and site.footer-links-active.reddit %}
           <li>
             <a href="https://reddit.com/u/{{ site.author.reddit }}" title="Reddit">
