@@ -204,6 +204,12 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
+      - name: "keywords"
+        field:
+          element: "textarea"
+          label: "Key"
+          placeholder: "A description of your key."
+          alterable: true
       - name: "date"
         field:
           element: "text"
