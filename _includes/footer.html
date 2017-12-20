@@ -36,6 +36,17 @@
             </a>
           </li>
           {% endif %}
+      {% if site.author.weixin and site.footer-links-active.weixin %}
+          <li>
+            <a href="https://wx.qq.com/{{ site.author.weixin }}" title="Weixin">
+              <span class="fa-weixin fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-weixin fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">Weixin</span>
+            </a>
+          </li>
+          {% endif %}    
 	  {% if site.author.reddit and site.footer-links-active.reddit %}
           <li>
             <a href="https://reddit.com/u/{{ site.author.reddit }}" title="Reddit">
