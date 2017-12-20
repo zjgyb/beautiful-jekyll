@@ -23,7 +23,7 @@ description: write some notes.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "I am a student now."
+  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
@@ -64,7 +64,7 @@ author:
   google-plus: +zjsgyb   # eg. +DeanAttali or 109424658772469020925
   linkedin: none  # eg. daattali
   xing: yourname      # eg. daattali
-  stackoverflow: none  # eg. "3943160/daattali"
+  stackoverflow: 9115987/龚意邦  # eg. "3943160/daattali"
   snapchat: none  # eg. daattali
   instagram: none # eg. daattali
   youtube: zjsgyb   # eg. user/daattali or channel/daattali
@@ -85,7 +85,7 @@ footer-links-active:
   reddit: false
   linkedin: false
   xing: false
-  stackoverflow: false
+  stackoverflow: true
   snapchat: false
   instagram: false
   youtube: false
@@ -104,7 +104,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
