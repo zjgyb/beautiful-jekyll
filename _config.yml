@@ -57,7 +57,7 @@ avatar: "/img/avatar-icon.png"
 author:
   name: gongyibang
   email: "zjsgyb@gmail.com"
-  facebook: none  # eg. daattali
+  facebook: 100023878172436  # eg. daattali
   github: zjgyb    # eg. daattali
   twitter: lxgyb   # eg. daattali
   reddit: none    # eg. daattali
@@ -78,7 +78,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: false
+  facebook: true
   email: true
   twitter: true
   google-plus: false
