@@ -73,9 +73,8 @@ ReactDOM.render(
 )
  ```
  作者讨论了PureComponent在何种情况下会优化性能，下面是我的理解：<br />
- &nbsp;&nbsp;在第二题中改变的是App组件中otherState状态，因此在Table组件中没有东西发生改变，
- 因此render不会重新渲染，所以用PureComponent有利于性能优化，你可以用<code>console.log('sone render')</code> 来观察组件是否被重新渲染<br />
-  &nbsp;&nbsp;在第三题中改变的是App组件中的index状态，这将直接导致Table组件list的改变，从而
-  使render中的itemStyle发生重构，因此在Row组件里的style每次会发生改变，把Component变成PureComponent无效，还会影响性能，因此该注意此类问题<br />
-  ## 文章相关
+ &nbsp;&nbsp;在第二题中改变的是App组件中otherState状态，因此在Table组件中没有东西发生改变，因此render不会重新渲染，所以用PureComponent有利于性能优化，你可以用<code>console.log('sone render')</code> 来观察组件是否被重新渲染<br />
+&nbsp;&nbsp;在第三题中改变的是App组件中的index状态，这将直接导致Table组件list的改变，从而使render中的itemStyle发生重构，因此在Row组件里的style每次会发生改变，把Component变成PureComponent无效，还会影响性能，因此该注意此类问题<br />
+  
+  ## 文章相关 <br />
   <a href="https://zjgyb.github.io/2018-01-11-React(render)/" target="_blank">React(render)</a>
