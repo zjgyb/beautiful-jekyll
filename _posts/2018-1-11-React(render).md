@@ -8,7 +8,7 @@ tags: Front-end React
 
 ## 今天看到了《前端大全》里的一篇文章[链接](https://mp.weixin.qq.com/s/05SWQW7XeHHsk4QvACiMeA)，结合最近所学进行了理解
 
-### <a href="https://codepen.io/zjgyb/pen/QarNYN?editors=0010" target='_blank'>第一题</a>，介绍了关于button点击之后发生了什么
+### <a href="https://codepen.io/zjgyb/pen/QarNYN?editors=0010" target='_blank'>第一题codepen</a>，介绍了关于button点击之后发生了什么
 ``` react
 class Content extends React.Component {
   render() {
