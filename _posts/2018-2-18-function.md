@@ -18,7 +18,7 @@ var fn = function() {
 	// some code
 }
 ```
-{: box-note}
+{: .box-note}
 ## es6拓展
 ### 函数设置默认值
 
@@ -32,7 +32,7 @@ function fn(x = 0) {
 	// some code
 }
 ```
-{: box-note}
+{: .box-note}
 ### 箭头函数
 要说es6最有趣的变化我认为是箭头函数了，优点就是简洁，缺点么就是我认为就是可读性了<br />
 
@@ -52,7 +52,7 @@ let fn = () => {
 	console.log(a);
 };
 ```
-{: box-note}
+{: .box-note}
 ### rest参数
 
 ``` js
@@ -65,6 +65,6 @@ var fn = (...values) => {
 }
 fn(1, 2, 3, 5); // 11
 ```
-{: box-note}
+{: .box-note}
 ## 参考教程
 <a href="http://es6.ruanyifeng.com/#docs/function" target="_blank">阮一峰es6</a>
